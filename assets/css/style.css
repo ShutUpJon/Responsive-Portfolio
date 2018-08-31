@@ -190,7 +190,7 @@ input {
 @media screen and (max-width: 980px) {
 
 
-    .mainbody {
+    #content {
         margin-top: 75px;
         width: 400px;
         height: 560px;
@@ -200,34 +200,16 @@ input {
         color: #777777;
     }
     
-    .mainbody img {
+    #content img {
         padding-bottom: 20px; 
         clear: none;
         padding-top: 15px;
         margin-right: 20px;
     }
-    
-    .sidebar {
-        margin-top: 75px;
-        float: right;  
-        display: inline-block;
-        margin-right: 260px;
-        background-color: #ffffff;
-        text-align: center;
-        }
+
     }
     
-    .formbody {
-        margin-top: 75px;
-        width: 400px;
-        height: auto;
-        display: inline-block;
-        padding: 10px 25px 25px 25px;
-        background-color: #ffffff;
-        color: #777777;
-     }
-    
-    .portfoliobody {
+    .article {
         margin-top: 75px;
         width: 400px;
         height: auto;
@@ -241,81 +223,59 @@ input {
     
     @media screen and (max-width: 768px) {
     
-    .mainbody {
+    #content {
         width: 65%;
         height: 440px;
         display: block; 
     }
     
-    .mainbody img {
+    #content img {
         padding-bottom: 10px; 
         padding-top: 15px;
         margin-right: 20px;
     }
     
-    .portfoliobody {
+    .article {
         width: 65%;
         height: 500px;
         display: block; 
     }
     
     
-    .formbody {
-        width: 65%;
-        height: auto;
-        display: block; 
-    }
-    
-    .sidebar {
+    .header {
         width: 65%;
         float: none;
         height: 100px;
         margin-top: 25px;
         margin-left: 0px;
     }
-    
-    .sidebar li a {
-        margin: 0;
-        padding-top: 0px;
-    }
-    
-    .sidebar-header h3 {
-        float: left;
-        padding-left: 20px; 
-        border-bottom: 1px solid #e7e7e7; 
-        }  
+     
     }    
     
      /* width @ 640px because phone layout landscape */
      
     @media screen and (max-width: 640px) {
     
-    .mainbody {
+    #content {
         width: 55%;
         margin-top: 125px;
         height: auto;
     }
     
-    .mainbody img {
+    #content img {
         width: 100%;
         padding-bottom: 20px; 
         padding-top: 15px;
         margin-right: 20px;
     }
     
-    .formbody {
+    .article {
         width: 55%;
         margin-top: 125px;
         height: auto;
     }
     
-    .portfoliobody {
-        width: 55%;
-        margin-top: 125px;
-        height: auto;
-    }
-    
-    .sidebar {
+    .header {
         width: 55%;
         height: 100px;
         margin-top: 25px;
@@ -323,30 +283,6 @@ input {
         margin-bottom: 150px; 
     }
     
-    .sidebar li a {
-        padding-top: 0px;
-    }
-    
-    .sidebar-header h3 {
-        float: left;
-        padding-left: 20px; 
-        border-bottom: 1px solid #e7e7e7;
-    }  
-    
-    .header-right {
-        display: block;
-        width: 100%;
-        margin: auto;
-        margin-left: -29%;
-        position: static;
-    }  
-    
-    .header-left {
-        display: block;
-        width: 100%;
-        margin: auto;
-        margin-right: -35%;
-        }
     }
     
     
